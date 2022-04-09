@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/where-geospatial/static/css/main.c894d176.chunk.css",
+    "main.js": "/where-geospatial/static/js/main.1278477b.chunk.js",
+    "main.js.map": "/where-geospatial/static/js/main.1278477b.chunk.js.map",
+    "runtime-main.js": "/where-geospatial/static/js/runtime-main.e0e4331e.js",
+    "runtime-main.js.map": "/where-geospatial/static/js/runtime-main.e0e4331e.js.map",
+    "static/css/2.199a1a60.chunk.css": "/where-geospatial/static/css/2.199a1a60.chunk.css",
+    "static/js/2.7ccf3d55.chunk.js": "/where-geospatial/static/js/2.7ccf3d55.chunk.js",
+    "static/js/2.7ccf3d55.chunk.js.map": "/where-geospatial/static/js/2.7ccf3d55.chunk.js.map",
+    "index.html": "/where-geospatial/index.html",
+    "static/css/2.199a1a60.chunk.css.map": "/where-geospatial/static/css/2.199a1a60.chunk.css.map",
+    "static/css/main.c894d176.chunk.css.map": "/where-geospatial/static/css/main.c894d176.chunk.css.map",
+    "static/js/2.7ccf3d55.chunk.js.LICENSE.txt": "/where-geospatial/static/js/2.7ccf3d55.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0e4331e.js",
+    "static/css/2.199a1a60.chunk.css",
+    "static/js/2.7ccf3d55.chunk.js",
+    "static/css/main.c894d176.chunk.css",
+    "static/js/main.1278477b.chunk.js"
+  ]
+}
