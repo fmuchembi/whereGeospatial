@@ -25,13 +25,13 @@ class Map extends React.Component{
         iconRetinaUrl: star,
         popupAnchor: [-0, -0],
         iconSize:[10,10],
-        background: 'orange',
+        background: 'orangered',
     });
       const styles= {
-        fillColor:'orange',
+        fillColor:'orangered',
         weight: 0.5,
         opacity: 1,
-        color:'orange',
+        color:'orangered',
         dashArray: 1,
         fillOpacity: 0.7
     }
@@ -41,10 +41,11 @@ class Map extends React.Component{
         marginTop:"5%"
     }
     const tiles ={
-        color:'orange'
+        color:'orangered'
     }
-    const limeOptions = { color: 'orange', weight:2, }
-    const position = [-3.919907, 29.751335]
+    const limeOptions = { color: 'orangered', weight:2, }
+    //const position = [-1.919907, 29.751335]
+    const position = [10.919907, 29.751335]
         return(
             <div className='map'>
                 {this.state.background ===1 &&   <MapContainer center={position} scrollWheelZoom={true}  zoom={3} style={style}>
