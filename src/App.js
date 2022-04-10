@@ -3,7 +3,7 @@ import './app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes,Link} from "react-router-dom";
 import Map from './components/Map';
-import TableFormData from './components/TableFormData'
+import TableFormData from './components/TableFormData';
 import {faDrawPolygon, faGripLines, faEllipsisH, faTable, faGlobeAfrica} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
