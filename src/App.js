@@ -77,9 +77,8 @@ class App extends React.Component{
                     <button type="button" className='btn  btn-sm'><Link to="/table" style={linkstyle}><FontAwesomeIcon style={iconTwo} icon={faTable}/>display table</Link></button>
                  </div>
                 <Routes>
-                  <Route exact path='/' element={< Map pointData={this.state.pointData} lineData={this.state.lineData} polygonData={this.state.polygonData} buttonId={this.state.buttonId}/>}>
-                  </Route>
-                  <Route exact path='/table' element={< TableFormData pointData={this.state.pointData} lineData={this.state.lineData} polygonData={this.state.polygonData} buttonId={this.state.buttonId}/>}></Route>
+                  <Route exact path='/table' element={< TableFormData pointData={this.state.pointData} lineData={this.state.lineData} polygonData={this.state.polygonData} buttonId={this.state.buttonId}/>}/>
+                  <Route exact path='/' element={< Map pointData={this.state.pointData} lineData={this.state.lineData} polygonData={this.state.polygonData} buttonId={this.state.buttonId}/>}/>
                 </Routes>
               </div>
            </Router>
