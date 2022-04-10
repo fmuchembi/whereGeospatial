@@ -1,27 +1,9 @@
-body{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    width:100%;
-    background-attachment: fixed;
-}
-.list-group-item{
-    margin-bottom: 50%;
-    margin-left: 10%;
-    cursor:pointer;
-}
-.list-group-item:hover{
-    color:orangered;
-}
-.list-group-item:active{
-    color:orangered;
-    font-weight:bold;
-}
 .buttons{
     display: flex;
     position: absolute;
+    position: fixed;
     background: orangered;
-    z-index: 999;
+    z-index:999;
     right: 10px;
     top: 15px;
     opacity: 70%;
@@ -39,17 +21,6 @@ body{
     opacity: 70%;
     width: auto;
     border-radius: 5%;    
-}
-.btn{
-    color: orangered;
-    width: 180px;
-}
-th{
-    font-weight: 500;
-}
-.popupdiv{
-    height: auto;
-    width: auto;
 }
 .toggle{
     color: orangered;
@@ -74,6 +45,38 @@ th{
     opacity: 70%;
     width: auto;
   }
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    background-attachment: fixed;
+}
+.list-group-item{
+    margin-bottom: 50%;
+    margin-left: 10%;
+    cursor:pointer;
+}
+.list-group-item:hover{
+    color:orangered;
+}
+.list-group-item:active{
+    color:orangered;
+    font-weight:bold;
+}
+
+.btn{
+    color: orangered;
+    width: 180px;
+}
+th{
+    font-weight: 500;
+}
+.popupdiv{
+    height: auto;
+    width: auto;
+}
+
   .switch{
       list-style: none;
       font-size: 10px;
