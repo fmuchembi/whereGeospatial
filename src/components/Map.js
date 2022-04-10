@@ -1,8 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { MapContainer, TileLayer, Marker,Popup, Polyline, GeoJSON} from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+import 'bootstrap/dist/css/bootstrap.min.css';
 //import marker from '../assets/images/star-solid.svg';
 
 
