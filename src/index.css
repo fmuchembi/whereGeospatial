@@ -48,6 +48,8 @@ body{
     background-size:cover;
     width:100%;
     background-attachment: fixed;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .list-group-item{
     margin-bottom: 50%;
@@ -90,3 +92,6 @@ th{
   .table{
       margin-top: 5%;
   }
+ /* .col-2{
+    
+  }*/
