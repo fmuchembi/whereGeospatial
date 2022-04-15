@@ -42,7 +42,6 @@ class Map extends React.Component{
         color:'orangered'
     }
     const limeOptions = { color: 'orangered', weight:2, }
-    //const position = [-1.919907, 29.751335]
     const position = [10.919907, 29.751335]
         return(
             <div className='map'>
