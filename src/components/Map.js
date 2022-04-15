@@ -30,10 +30,8 @@ class Map extends React.Component{
       const styles= {
         fillColor:'orangered',
         weight: 0.5,
-        opacity: 1,
         color:'orangered',
         dashArray: 1,
-        fillOpacity: 0.7
     }
     const img ={
         height:'100%',
