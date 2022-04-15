@@ -15,7 +15,7 @@ class Map extends React.Component{
     }
     render(){
         const style = {
-            height: '98vh',
+            height: '100vh',
             width: '100%',
             backgroundSize:'cover',
         }
