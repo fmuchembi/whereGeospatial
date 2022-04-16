@@ -17,7 +17,6 @@ class Map extends React.Component{
         const style = {
             height: '100vh',
             width: '100%',
-            backgroundSize:'cover',
         }
         const star = 'https://th.bing.com/th/id/R.f3de8ea5dccde14634b2ef54b72551bf?rik=wah7i3e7uYA65g&pid=ImgRaw&r=0'
         const myIcon = new L.Icon({
