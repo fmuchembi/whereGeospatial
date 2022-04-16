@@ -44,8 +44,8 @@ body{
     background-size:cover;
     width:100%;
     background-attachment: fixed;
-   /* overflow-y: hidden;
-    overflow-x: hidden; */
+    overflow-y: hidden;
+    overflow-x: hidden; 
 }/*
 .list-group-item{
     margin-bottom: 50%;
