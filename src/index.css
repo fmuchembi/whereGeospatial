@@ -4,7 +4,6 @@
     z-index:999;
     right: 10px;
     top: 15px;
-    /*opacity: 70%;*/
     width: auto;
     border-radius: 5%;    
 
@@ -15,7 +14,6 @@
     z-index: 999;
     right: 220px;
     top: 15px;
-    /*opacity: 70%;*/
     width: auto;
     border-radius: 5%;    
 }
@@ -28,7 +26,6 @@
     font-size:12px;
     letter-spacing:2px;
     background: white;
-   /* opacity: 70%;*/
     width: auto;
   }
   .toggle2 {
@@ -39,7 +36,6 @@
     bottom: 0px;
     letter-spacing:2px;
     background: white;
-    /*opacity: 70%;*/
     width: auto;
   }
 body{
@@ -48,14 +44,14 @@ body{
     background-size:cover;
     width:100%;
     background-attachment: fixed;
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-}
+    overflow-y: hidden;
+    overflow-x: hidden; 
+}/*
 .list-group-item{
     margin-bottom: 50%;
     margin-left: 10%;
     cursor:pointer;
-}
+}*/
 .list-group-item:hover{
     color:orangered;
 }
@@ -92,6 +88,50 @@ th{
   .table{
       margin-top: 5%;
   }
- /* .col-2{
+  
+  @media only screen and (max-width: 480px) {
+    .buttons2{
+        right: 200px;  
+    }
+    .toggle,.toggle2{
+        display: none;
+    }
+   
+  }
+  @media only screen and (min-width: 575px) {
+    .buttons2{ 
+        top: 0px;
+    }
+    .buttons{
+        top:0px;
+    }
+    .table{
+        margin-top: 10%;
+    }
+    .list-group-item{
+        margin-bottom: 50%;
+        margin-left: 10%;
+        cursor:pointer;
+    } 
     
-  }*/
+  }
+  @media only screen and (min-width: 1000px) {
+    .table{
+        margin-top: 7%;
+    }
+    .buttons2{ 
+        top: 15px;
+    }
+    .buttons{
+        top:15px;
+    }
+    .list-group-item{
+        margin-bottom: 50%;
+        margin-left: 10%;
+        cursor:pointer;
+    }
+  
+   
+    
+  }
+  
