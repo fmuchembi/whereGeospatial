@@ -55,9 +55,9 @@ class App extends React.Component{
     fontSize:25
   }
     return(
-      <div className=''>
+      <div className="">
         <div className="row">
-          <div className="col-2">
+          <div className="col-sm-2">
                <ul className='list-group list-group-flush'>
                   <li className='list-group-item text-muted mt-5'><h5>Data types</h5></li>
                   <li className='list-group-item' onClick={() => { this.setButton(0); this.showPointsData()}}><FontAwesomeIcon style={icons} icon={faEllipsisH} onClick={this.showPointsData}/>Points</li>
@@ -65,9 +65,9 @@ class App extends React.Component{
                   <li className='list-group-item' onClick={() => { this.setButton(2); this.showPolygonData()}}><FontAwesomeIcon style={icons} icon={faDrawPolygon} onClick={this.showPolygonData}/>Polygons</li>  
                </ul>
           </div>
-          <div className="col-10">
+          <div className='col-sm-10'>
             <Router>
-              <div className="App">
+              <div className="">
                 <div className='buttons2'>
                     <button type="button" className='btn  btn-sm'><Link to="/" style={linkstyle}> <FontAwesomeIcon style={iconTwo} icon={faGlobeAfrica}/>display map</Link></button>
                  </div>
@@ -81,7 +81,7 @@ class App extends React.Component{
               </div>
            </Router>
           </div>
-        </div>
+          </div>
       </div>
     )
   }
